@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "smarthr_ruby/version"
+require "smarthr/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "smarthr_ruby"
-  spec.version       = SmarthrRuby::VERSION
+  spec.name          = "smarthr"
+  spec.version       = Smarthr::VERSION
   spec.authors       = ["Risa Harada"]
   spec.email         = ["supikateriburu@gmail.com"]
 

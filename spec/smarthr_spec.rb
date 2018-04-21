@@ -1,6 +1,6 @@
-RSpec.describe SmarthrRuby do
+RSpec.describe Smarthr do
   it "has a version number" do
-    expect(SmarthrRuby::VERSION).not_to be nil
+    expect(Smarthr::VERSION).not_to be nil
   end
 
   it "does something useful" do

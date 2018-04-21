@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "smarthr_ruby"
+require "smarthr"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
